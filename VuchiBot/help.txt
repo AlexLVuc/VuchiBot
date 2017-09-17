@@ -1,0 +1,21 @@
+VuchiBot v0.05
+Python Discord Bot
+
+Bot Prefix: >
+
+-|Commands|-
+>ping: Spits out pong!
+
+Stock Commands:
+>stocklinks [corperation name]: Spits out links regarding the stock of a set corperation.
+>stockchart [stock exchange] [ticker of company]: Generates link to google finance from a given exchange regarding a specified company.
+
+>stockinfo default [stock ticker]: Spits out information of a stock on the default NYSE and NASDAQ exchange
+>stockinfo exchange [stock ticker] [exchange]: Spits out information of a stock in a specific trade index
+>stockinfo autopost [stock ticker] [exchange] [time interval]: Spits out information into specified channel given a time interval, follows same command as >stockinfo exchange. 
+Time interval options: hour, halfhour, quarterhour
+
+Clear Commands:
+>purge: Purge all messages from your text chat.
+>clear bot: Clears all bot messages.
+>clear user: Clears all user messages regarding the bot, any message that starts with the bot prefix.
